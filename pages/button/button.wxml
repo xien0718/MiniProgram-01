@@ -1,0 +1,9 @@
+<button size="big">按钮</button>
+<button 
+size="mini" 
+loading="{{isLoading}}" 
+bindtap="btnClick"
+>按钮</button>
+
+<!-- 修改点击时候的按钮颜色和字体颜色 -->
+<button hover-class="pressed">额四嫩叠</button>

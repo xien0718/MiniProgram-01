@@ -1,11 +1,11 @@
-// pages/text/text.js
+// pages/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isLoading: false
   },
 
   /**
@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  btnClick(){
+    this.setData({
+      isLoading:this.data.isLoading=true
+    })
   }
 })
