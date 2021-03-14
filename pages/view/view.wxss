@@ -1,0 +1,24 @@
+.top{
+  color: red;
+  background-color: green;
+}
+.bottom{
+  color: blue;
+}
+.inside{
+  width: 100px;
+  height: 100px;
+  background-color:purple;
+  color: white;
+}
+.inside-hover{
+  background-color: blue;
+}
+.outside{
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+}
+.outside-hover{
+background-color: darkgoldenrod;
+}

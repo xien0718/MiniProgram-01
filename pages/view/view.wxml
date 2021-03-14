@@ -1,0 +1,9 @@
+<!-- 1.可以放其他组件btn或text或文字 -->
+<!-- 2.分行显示类似于div -->
+<view class="top">第一行</view>
+<view class="bottom">第二行</view>
+<!-- 3.hover-class属性：手指覆盖添加样式-->
+<!-- 4.hover-stop-propagation属性：防止父元素一起触发点击事件 -->
+<view class="outside" hover-class="outside-hover" hover-stay-time="0">
+  <view hover-class="inside-hover" class="inside" hover-stay-time="0" hover-stop-propagation></view>
+</view>

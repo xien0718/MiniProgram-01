@@ -1,4 +1,4 @@
-// pages/text/text.js
+// pages/view/view.js
 Page({
 
   /**
